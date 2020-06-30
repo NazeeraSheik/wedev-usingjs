@@ -6,10 +6,7 @@
 	<title>Document</title>
 	<style>
 		@media screen and (min-width: 320px) and (max-width: 480px) {
-			body{
-				background-color: #F66B25;
-
-			}
+			
 			table,th,td{
 				border:1px solid black;
 			}
@@ -26,23 +23,21 @@
 
 			}
 			.resume{
-				background-color: #E6692A;
-				width:100%;
+				float:left;
 				border-radius: 5%;
 				box-shadow: 2px 2px 2px 2px;
+                width:100%;
 			}
 		}
-				body{
-			display: flex;
-			background-color: #3CCEDE;
+				
 		}
-		table,th,td{
+		.table,.th,.td{
 			border: 1px solid black;
 		}
      .card{
      	background-color: teal;
-     	width: 20%;
-     	height:40%;
+     	width:84%;
+     	height:400px;
      	text-align: center;
      	margin: 2%;
      	padding: 20px 20px 20px 20px;
@@ -51,81 +46,121 @@
      }
      .resume{
      	background-color: #9DCBD0;
-     	width: 65%;
+     	width: 100%;
+        height:800px;
         border-radius: 5%;
         box-shadow: 4px 4px 4px 4px;
+
      }
+     .td,.th,.table{
+    border:1px solid #000000;
+
+}
+img{
+    height: 40%;
+    width: 60%;
+    margin: 5%;
+    border-radius: 20%;
+}
+p{
+    font-size: 25px;
+}
+h3{
+    font-size: 25px;
+}
 
 	</style>
 </head>
 <body>
+   
+
+    <div class="parent" style="border:1px solid #000000;background-color:grey;width:100%;height:850px; display: flex;">
+        <div class="section1" style="border:1px solid #000000;height:850px;width:30%;float:left;">
+            
 <div class="card">
-    <img src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="prathyusha" style="height: 150px"></p>
+    <img src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="nazeera" style="height: 150px"></p>
     <h3>Nazeera</h3>
     <p>nazeerashaik61@gmail.com</p>
     <p>6303723986</p>
     <p>visakhaptnam</p>
 </div>
-<hr>
-<section class="resume ">
-	<h2><center>cirriculum vitae</center></h2>
-	<hr>
-	<h3 style="background-color: grey">educational qualifications:</h3>
-	<table style="width:100%">
-	<tr>
-		<th>course</th>
-        <th>education</th>
-        <th>batch</th>
-        <th>percentage</th>
-    </tr>
-    <tr>
-    	<th>btech</th>
-    	<th>andhra university</th>
-    	<th>2018-2022</th>
-    	<th>80%</th>
-    </tr>
-    <tr>
-    	<th>intermediate</th>
-        <th>narayana junior college</th>
-        <th>2016-2018</th>
-        <th>97.3%</th>
-    </tr>
-    <tr>
-    	<th>ssc</th>
-    	<th>jk high school</th>
-    	<th>2015-2016</th>
-    	<th>95%</th>
-    </tr>
-    </table>
+<div class="secondpart">
     <h3 style="background-color: grey">technical skills:</h3>
     <ul>
-    	<li>programming languages:c,java</li>
-    	<li>technologies:machine learning</li>
+        <li>programming languages:c,java</li>
+        <li>technologies:machine learning</li>
         <li>basic hacking tecniques and penetration testing</li>
         <li>python programming</li>
         <li>wed velopment using:css,bootsrap,sql,html</li>  
     </ul>
+</div>
+<hr>
+
+
+<div class="thirdpart">
     <h3 style="background-color: grey">hobbies:</h3>
     <ul>
-    	<li>reading novels</li>
-    	<li>writing poems</li>
-    	<li>intresting in knowing the facts</li>
+        <li>reading novels</li>
+        <li>writing poems</li>
+        <li>intresting in knowing the facts</li>
         <li>likes to watch thrillers</li>
         <li>intrested in making adventures</li>
     </ul>
-    <h3 style="background-color: grey">experiences:</h3>
+</div>
+</div>
+
+
+<div class="section2" style="width:70%;height:850px;">
+<section class="resume" style="width:100%,height:850px;">
+	<h2><center>cirriculum vitae</center></h2>
+	<hr>
+    <h3 style="background-color:grey"><center>career objective</center></h3>
+    <p>everything is dependent on determination so i trust in making things simple and straight</p>
+    <hr>
+	<h3 style="background-color: grey">educational qualifications:</h3>
+    <center>
+	<table style="width:100% border:1px solid #000000">
+	<tr>
+		<th style=" padding:2px ;border:1px solid #000000">course</th>
+        <th style="border:1px solid #000000">education</th>
+        <th style="border:1px solid #000000">batch</th>
+        <th style="border:1px solid #000000" >percentage</th>
+    </tr>
+    <tr>
+    	<th style="border:1px solid #000000">btech</th>
+    	<th style="border:1px solid #000000">andhra university</th>
+    	<th style="border:1px solid #000000">2018-2022</th>
+    	<th style="border:1px solid #000000">80%</th>
+    </tr>
+    <tr>
+    	<th style="border:1px solid #000000">intermediate</th>
+        <th style="border:1px solid #000000">narayana junior college</th>
+        <th style="border:1px solid #000000">2016-2018</th>
+        <th style="border:1px solid #000000">97.3%</th>
+    </tr>
+    <tr>
+    	<th style="border:1px solid #000000">ssc</th>
+    	<th style="border:1px solid #000000">jk high school</th>
+    	<th style="border:1px solid #000000">2015-2016</th>
+    	<th style="border:1px solid #000000">98%</th>
+    </tr>
+    </table>
+</center>
+<hr>
+    
+    
+    <h3 style="background-color: grey;width:100%;">projects:</h3>
     <ol>
     	<li>I have done competitive progrramming in hackerrank</li>
     	<li>I did some freelancing projects</li>
     	<li>I completed internship in webdevelopment in internshala</li>
         <li>completed internship on ml and have a done a project on heart diease prediction</li>
     </ol>
-    <h3 style="background-color: grey">achievements:</h3>
-    <ol>
-    	<li>I got a prize in train-green program condducted by hsbc as a best participant</li>
-    	<li>I wrote almost 8 competitive entrance exams and qualified in all of them</li>
-    	<li>I got certificate in c,digital marketing,python</li>
-     </ol>
+    <hr>
+    <h3 style="background-color: grey ;width:100%;">declaration</h3>
+   <input type="checkbox">i am here by declare that i accept all the instructions and make myself able to do the entire work with determination.<button type="submit">submit</button>
  </section>
+</div>
+</div>
 </body>
 </html>

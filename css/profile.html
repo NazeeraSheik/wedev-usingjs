@@ -7,7 +7,7 @@
 	<style>
 		@media screen and (min-width: 320px) and (max-width: 480px) {
 			
-			table,th,td{
+			.table,.th,.td{
 				border:1px solid black;
 			}
 			.card{
@@ -30,9 +30,11 @@
 			}
 		}
 				
-		}
-		.table,.th,.td{
-			border: 1px solid black;
+		
+        
+		table, th, td{
+			 padding:10px 15px;
+             border:1px solid #000000;
 		}
      .card{
      	background-color: teal;
@@ -52,8 +54,7 @@
         box-shadow: 4px 4px 4px 4px;
 
      }
-     .td,.th,.table{
-    border:1px solid #000000;
+     
 
 }
 img{
@@ -78,7 +79,7 @@ h3{
         <div class="section1" style="border:1px solid #000000;height:850px;width:30%;float:left;">
             
 <div class="card">
-    <img src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="nazeera" style="height: 150px"></p>
+    <img src="data:image/jpeg;base64,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" alt="nazeera" style="height: 150px"></p>
     <h3>Nazeera</h3>
     <p>nazeerashaik61@gmail.com</p>
     <p>6303723986</p>
@@ -119,30 +120,30 @@ h3{
     <hr>
 	<h3 style="background-color: grey">educational qualifications:</h3>
     <center>
-	<table style="width:100% border:1px solid #000000">
+	<table style="width:100%; border:1px solid #000000; padding: 15px 20px; border-collapse: collapse;">
 	<tr>
 		<th style=" padding:2px ;border:1px solid #000000">course</th>
-        <th style="border:1px solid #000000">education</th>
-        <th style="border:1px solid #000000">batch</th>
-        <th style="border:1px solid #000000" >percentage</th>
+        <th>education</th>
+        <th>batch</th>
+        <th >percentage</th>
     </tr>
     <tr>
-    	<th style="border:1px solid #000000">btech</th>
-    	<th style="border:1px solid #000000">andhra university</th>
-    	<th style="border:1px solid #000000">2018-2022</th>
-    	<th style="border:1px solid #000000">80%</th>
+    	<td>btech</td>
+    	<td>andhra university</td>
+    	<td>2018-2022</td>
+    	<td>80%</td>
     </tr>
     <tr>
-    	<th style="border:1px solid #000000">intermediate</th>
-        <th style="border:1px solid #000000">narayana junior college</th>
-        <th style="border:1px solid #000000">2016-2018</th>
-        <th style="border:1px solid #000000">97.3%</th>
+    	<td>intermediate</td>
+        <td>narayana junior college</td>
+        <td>2016-2018</td>
+        <td>97.3%</td>
     </tr>
     <tr>
-    	<th style="border:1px solid #000000">ssc</th>
-    	<th style="border:1px solid #000000">jk high school</th>
-    	<th style="border:1px solid #000000">2015-2016</th>
-    	<th style="border:1px solid #000000">98%</th>
+    	<td>ssc</td>
+    	<td>jk high school</td>
+    	<td>2015-2016</td>
+    	<td>98%</td>
     </tr>
     </table>
 </center>
